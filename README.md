@@ -1,7 +1,7 @@
 # Workshop com MongoDB
 
 Projeto de densenvolvimento de uma API, contendo interações entre: usuário, post e produto. O projeto foi realizado com o framework SpringBoot e a biblioteca JPA.
-O intuito foi aprimorar e reforçar conhecimentos em aplicações web e APIs, estruturando camadas lógicas: resource, service, repository, configurando o banco de dados de teste (H2), povoando o banco de dados, fazendo o CRUD - Create, Retrieve, Update, Delete, e por fim, realizando o tratamento de exceções.
+O intuito foi aprimorar e reforçar conhecimentos em aplicações web, NoSQL e APIs, estruturando camadas lógicas: resource, service, repository, configurando o banco de dados NoSQL MongoDB, povoando o banco de dados, fazendo o CRUD - Create, Retrieve, Update e Delete.
 
 Tecnologias usadas:
 - SpringBoot3
