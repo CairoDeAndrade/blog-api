@@ -39,6 +39,9 @@ public class Instanciation implements CommandLineRunner{
 		Post post1 = new Post(null, sdf.parse("23/08/2018"), "Let's go traveling!", "We are going to São Paulo!", new AuthorDTO(maria));
 		Post post2 = new Post(null, sdf.parse("23/08/2018"), "Good morning!", "I woke up happy today!", new AuthorDTO(maria));
 		postRepository.saveAll(Arrays.asList(post1, post2));
+		
+		maria.getPosts().addAll(Arrays.asList(post1, post2));
+		userRepository.save(maria);
 	}
 
 }
